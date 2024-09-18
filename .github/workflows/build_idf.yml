@@ -36,7 +36,7 @@ jobs:
         target: esp32c3
         path: 'examples/get-started/hello_world'
     - name: Download built firmware
-        uses: actions/download-artifact@v3
-        with:
-          name: built_files
-          path: binaries/
+      uses: actions/download-artifact@v3
+      with:
+        name: built_files
+        path: binaries/
