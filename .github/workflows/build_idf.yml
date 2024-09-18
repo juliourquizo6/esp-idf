@@ -4,7 +4,7 @@ branding:
   color: red
   icon: wifi
 inputs:
-  path: examples/get-started/hello_world
+  path: "examples/get-started/hello_world"
     description: "Relative path under $GITHUB_WORKSPACE to place the repository"
     default: ""
     required: false
