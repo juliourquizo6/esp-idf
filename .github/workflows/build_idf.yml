@@ -41,6 +41,8 @@ jobs:
     - name: S2 - Add artifacts to publish
       run: |
         cd downloads
+        pwd
+        ls /app/figual
         cp /app/figual/esp-idf/examples/get-started/hello_world/build/hello_world.bin downloads
         cd ..
 
