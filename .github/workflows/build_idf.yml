@@ -39,4 +39,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: hello_world.bin
-        path: build/
+        path: /app/figual/esp-idf/examples/get-started/hello_world/build
