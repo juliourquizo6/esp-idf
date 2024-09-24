@@ -35,19 +35,9 @@ jobs:
         esp_idf_version: v5.3
         target: esp32c3
         path: 'examples/get-started/hello_world'
-    - name: S1 - Create a temporary artifact downloads folder
-      run: mkdir downloads
-
-    - name: S2 - Add artifacts to publish
-      run: |
-        cd downloads
-        pwd
-        ls /app/figual
-        cp /app/figual/esp-idf/examples/get-started/hello_world/build/hello_world.bin downloads
-        cd ..
-
     - name: Download built firmware
       uses: actions/upload-artifact@v4
       with:
-        name: assets-for-download
-        path: downloads
+        name: hello_world.bin
+        path: |
+          build/hello_world.bin
