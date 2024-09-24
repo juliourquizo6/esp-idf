@@ -1,5 +1,7 @@
 name: "Espressif IoT Development Framework (ESP-IDF)"
 on:
+  push:
+    branches: [ main ]
   workflow_dispatch:
     inputs:
       path: 
