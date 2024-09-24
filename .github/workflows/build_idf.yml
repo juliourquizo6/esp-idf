@@ -38,5 +38,5 @@ jobs:
     - name: Download built firmware
       uses: actions/upload-artifact@v4
       with:
-        name: hello_world.bin
-        path: /app/figual/esp-idf/examples/get-started/hello_world/build/
+        name: binary-file
+        path: /app/figual/esp-idf/examples/get-started/hello_world/build/hello_world.bin
