@@ -2,7 +2,8 @@ name: "Espressif IoT Development Framework (ESP-IDF) on push"
 on:
   push:
     branches: main
-  inputs:
+
+    inputs:
       path: 
         description: "Relative path under $GITHUB_WORKSPACE to place the repository"
         default: "examples/get-started/hello_world"
