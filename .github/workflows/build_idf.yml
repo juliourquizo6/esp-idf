@@ -36,7 +36,7 @@ jobs:
         target: esp32c3
         path: 'examples/get-started/hello_world'
     - name: Download built firmware
-      uses: actions/upload-artifact@v4
+      uses: actions/download-artifact@v4
       with:
         name: hello_world.bin
-        path: /app/figual/esp-idf/examples/get-started/hello_world/build
+        path: build/
