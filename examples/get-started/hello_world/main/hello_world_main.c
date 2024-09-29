@@ -15,7 +15,7 @@
 
 void app_main(void)
 {
-    printf("Hola GitHub de Julio\n");
+    printf("Hola GitHub de Julio. Hoy es domingo.\n");
 
     /* Print chip information */
     esp_chip_info_t chip_info;
